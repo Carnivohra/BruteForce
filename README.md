@@ -12,7 +12,7 @@ bruteForce.clearWhitelist(); // Removes all current whitelisted characters.
 bruteForce.setMinLength(1); // Generates codes with a minimum amount of 1 character only.
 bruteForce.setMaxLength(16); // Generates codes with a maximum amount of 16 characters only.
 String code = bruteForce.getCurrentCode(); // Returns the last Generated code.
-code = bruteForce.generatedNextCode(); // Returns the next code to brute force with.
+code = bruteForce.generateNextCode(); // Returns the next code to brute force with.
 bruteForce.reset(); // Resets the actual code to the initial code depending on the minimum amount of characters.
 ```
 
