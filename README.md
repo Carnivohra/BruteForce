@@ -22,8 +22,6 @@ bruteForce.reset(); // Resets the current code to the initial code depending on 
 BruteForce bruteForce = new BruteForce();
 bruteForce.addToWhitelist("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 bruteForce.addToWhitelist("abcdefghijklmnopqrstuvwxyz");
-bruteForce.setMinLength(1);
-bruteForce.setMaxLength(16);
 
 String password = "Penis"; // The correct password
 long startedTime = System.currentTimeMillis();
