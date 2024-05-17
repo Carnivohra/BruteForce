@@ -11,7 +11,7 @@ bruteForce.removeFromWhitelist('5'); // Generates codes without the number 5.
 bruteForce.clearWhitelist(); // Removes all current whitelisted characters.
 bruteForce.setMinLength(1); // Generates codes with a minimum amount of 1 character only.
 bruteForce.setMaxLength(16); // Generates codes with a maximum amount of 16 characters only.
-String code = bruteForce.getCurrentCode(); // Returns the last Generated code.
+String code = bruteForce.getCurrentCode(); // Returns the last generated code.
 code = bruteForce.generateNextCode(); // Returns the next code to brute force with.
 bruteForce.reset(); // Resets the current code to the initial code depending on the minimum amount of characters.
 ```
