@@ -37,4 +37,4 @@ System.out.println("Password '" + currentCode + "' found in '" + differenceInSec
 ```
 
 **Output:**
-`Password 'Penis' found in '4.589' second(s).`
+`Password 'Penis' found in '2.782' second(s).`
