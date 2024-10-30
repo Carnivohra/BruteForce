@@ -1,4 +1,6 @@
 # BruteForce
+[![CodeFactor](https://www.codefactor.io/repository/github/carnivohra/bruteforce/badge)](https://www.codefactor.io/repository/github/carnivohra/bruteforce)
+
 A simple optimized brute force library written in Java.
 This library is full documented and easy to use.
 
