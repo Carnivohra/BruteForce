@@ -17,7 +17,7 @@ public class BruteForce {
      * has not been called before, this method will return 
      * the initial code to be used for brute forcing.
      *
-     * The current code.
+     * @return The current code.
      */
     public String getCurrentCode() {
         return new String(chars);
